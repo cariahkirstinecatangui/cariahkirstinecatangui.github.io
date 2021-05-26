@@ -40,18 +40,18 @@ p{
 .content-table {
 	border-collapse: collapse;
 	margin-top: 30px;
-	margin-left: 245px;
+	margin-left: 60px;
 	margin-right: 100px;
 	margin-bottom: 0px;
 	font-size: 0.9em;
-	min-width: 900px;
+	min-width: 1250px;
 	min-height: 350px;
 	border-radius: 5px 5px 5px 5px;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,15);
 }
 .content-table thead tr {
-	background-color: rgba(228, 240, 231, 0.6);
+	background-color: #5a4f4a;
 	color: #fff;
 	text-align: left;
 	font-weight: weight;
@@ -63,26 +63,31 @@ p{
 	height: 30px;
 }
 .content-table tbody tr:last-of-type{
-	border-bottom: 2px solid rgba(228, 240, 231, 0.6);
+	border-bottom: 2px solid #5a4f4a;
 }
 .content-table tbody tr {
-	border-bottom: 1px solid #0005;
+	border-bottom: 1px solid #5a4f4a;
+}
+.content-table tbody tr td {
+	border-right: 1px solid #5a4f4a;
 }
 .content-table tbody tr td.inactive{
 	background-color: #f4cca4;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.itec{
-	background-color: #867ae9;
+	background-color: #76c893;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.gned6{
-	background-color: #ff7b54;
+	background-color: #e5989b;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.gned3{
-	background-color: #064420;
+	background-color: #f4a261;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
@@ -92,7 +97,7 @@ p{
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.dcit23{
-	background-color: #ce1212;
+	background-color: #2b2d42;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
@@ -102,7 +107,7 @@ p{
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.dcit22{
-	background-color: #ff8303;
+	background-color: #4a4e69;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
@@ -112,12 +117,13 @@ p{
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.gned1{
-	background-color: #f0c929;
+	background-color: #8a5a44;
 	color: #fff;
 	font-family: "Julius Sans One", serif;
 }
 .content-table tbody tr td.tmz{
-	background-color: rgba(228, 240, 231, 0.6);
+	background-color: #5a4f4a;
+	border-bottom: 1px solid #0005;
 	color: #fff;
 	font-family: "BioRhyme";
 }
