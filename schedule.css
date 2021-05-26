@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Julius Sans One", serif;
+}
+body{
+	
+	width: 100%;
+	height: 95vh;
+	background-color: #e28a75;
+	background-size: cover;
+}
+h1{
+	font-family: "Julius Sans One", serif;
+	font-size: 40px;
+	line-height: 1;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	text-shadow: 5px 5px 25px rgba(0,0,0,15);
+	margin-bottom: 0px;
+}
+h5{
+	font-family: "Julius Sans One", serif;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+p{
+	font-family: "La Belle Aurore", serif;
+	font-size: 15px;
+	line-height: 1;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.content-table {
+	border-collapse: collapse;
+	margin-top: 30px;
+	margin-left: 245px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	font-size: 0.9em;
+	min-width: 900px;
+	min-height: 350px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,15);
+}
+.content-table thead tr {
+	background-color: rgba(228, 240, 231, 0.6);
+	color: #fff;
+	text-align: left;
+	font-weight: weight;
+}
+.content-table th, .content-table td {
+	text-align: center;
+	font-family: "BioRhyme";
+	padding: 0 ;
+	height: 30px;
+}
+.content-table tbody tr:last-of-type{
+	border-bottom: 2px solid rgba(228, 240, 231, 0.6);
+}
+.content-table tbody tr {
+	border-bottom: 1px solid #0005;
+}
+.content-table tbody tr td.inactive{
+	background-color: #f4cca4;
+}
+.content-table tbody tr td.itec{
+	background-color: #867ae9;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.gned6{
+	background-color: #ff7b54;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.gned3{
+	background-color: #064420;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.fitt2{
+	background-color: #564a4a;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.dcit23{
+	background-color: #ce1212;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.gned12{
+	background-color: #798777;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.dcit22{
+	background-color: #ff8303;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.dcit21{
+	background-color: #4b778d;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.gned1{
+	background-color: #f0c929;
+	color: #fff;
+	font-family: "Julius Sans One", serif;
+}
+.content-table tbody tr td.tmz{
+	background-color: rgba(228, 240, 231, 0.6);
+	color: #fff;
+	font-family: "BioRhyme";
+}
+.previous{
+	margin-top: 60px;
+	margin-left: 55px;
+	padding: 20px 25px;
+	justify-content: flex-end;
+	display: flex;
+	font-size: 12px;
+	padding: 14px 25px;
+	background-color: #0005;
+	color: #fff;
+	border-radius: 10px;
+}
+.previous:hover{
+	background-color:#f3ac98;
+	color: white;
+}
+.next {
+	margin-top: -45px;
+	margin-left: 1200px;
+	padding: 20px 25px;
+	justify-content: flex-end;
+	display: flex;
+	font-size: 12px;
+	padding: 14px 25px;
+	background-color: #0005;
+	color: #fff;
+	border-radius: 10px;
+}
+.next:hover {
+	background-color:#f3ac98;
+	color: white;
+}

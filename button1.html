@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Button 1</title>
+<h3><em>This is the Button 1</em></h3>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: "Julius Sans One", sans-serif;
+	}
+	.display{
+		width: 100%;
+		height: 100vh;
+		background-image: url(dylan-nolte-SH_IjrKwG8c-unsplash.jpg);
+		background-size: cover;
+	}
+	nav{
+		width:100%;
+		height: 50px;
+		background-color: #0005;
+		line-height: 50px;
+	}
+	nav ul{
+		float: left;
+		margin-right: 30px;
+	}
+	nav ul li{
+		list-style-type: none;
+		display: inline-block;
+		transition: 0.7s all;
+	}
+	nav ul li:hover{
+		background-color: #f3ac98;
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: #fff;
+		padding: 30px;
+	}
+	.btn{
+		border: 2px solid black;
+		background-color: white;
+		color: black;
+	    cursor: pointer;
+		border-radius: 5px;
+	}
+	.button1{
+		font-size: 16px;
+		padding: 14px 25px;
+		border-color: #810000;
+		color: #810000;
+	}
+	.button1:hover{
+		background-color:#810000;
+		color: white;
+	}
+	.homepage{
+		font-size: 15px;
+		padding: 10px 10px;
+		border-color: #ff6f3c;
+		color: #ff6f3c;
+	}
+	.homepage:hover{
+		background-color: #ff6f3c;
+		color: white;
+	}
+</style>
+<body>
+<div class = "display">	
+<div class = "topnav">
+	<nav>
+		<ul>
+			<li><a href = "index.html"> Home </a></li>
+			<li><a href = "about.html"> About Me </a></li>
+			<li><a href = "page1.html"> Favorite </a></li>
+			<li><a href = "activity.html"> Activity </a></li>
+		</ul>
+	</nav>
+	<p>A linked style as a Button</p>
+	<p><button class="btn button1" onclick="location.href = 'activity4.html'">This is the example of Button 1</button></p>
+	
+	<p>Click here to go back to <button class="btn homepage" onclick="location.href = 'activity4.html'">Homepage</button></p>
+</div>
+</body>
+</head>
+</html>
